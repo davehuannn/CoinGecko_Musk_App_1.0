@@ -36,9 +36,9 @@ access_token_secret = 'XXXX'
 
 # CoinGecko API
 # ------------------------------------------------------------------------------------------------
-coingecko_url = 'https://api.coingecko.com/api/v3/coins/list'
+coingecko_url = 'https://pro-api.coingecko.com/api/v3/coins/list'
 # CoinGecko API endpoint for retrieving additional information
-quote_url = 'https://api.coingecko.com/api/v3/simple/price'
+quote_url = 'https://pro-api.coingecko.com/api/v3/coins/markets'
 # ------------------------------------------------------------------------------------------------
 
 def create_url():
